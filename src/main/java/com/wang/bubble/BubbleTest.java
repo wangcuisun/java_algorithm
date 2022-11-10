@@ -6,8 +6,8 @@ import java.util.Random;
 public class BubbleTest {
     public static void main(String[] args) {
         Integer[] a = new Integer[6];
+        Random r = new Random();
         for (int i = 0; i < 6; i++) {
-            Random r = new Random();
             a[i] = r.nextInt(100);
         }
         System.out.println("随机获取100以内的整数========排序之前");
